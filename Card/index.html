@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playwrite+CO+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(231, 222, 222);
+      }
+      .container {
+        padding: 10px;
+        width: 300px;
+        height: 460px;
+        margin: 0 auto;
+        background-color: antiquewhite;
+        box-shadow: 5px 3px 4px gray;
+        border-radius: 10px;
+      }
+      .card-img {
+        padding: 5px;
+      }
+      img {
+        border-radius: 10px;
+        width: 270px;
+      }
+      .card-head {
+        padding: 8px;
+        margin: 0 auto;
+      }
+      .card-body {
+        margin: 5px;
+      }
+      span {
+        margin: 5px;
+        padding: 7px;
+        border: 2px solid lightgray;
+        border-radius: 15px;
+        font-size: 10px;
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      h2 {
+        margin: 0;
+        font-size: 2rem;
+        font-family: "Urbanist", serif;
+      }
+      p {
+        margin: 0;
+        font-size: 12px;
+        color: gray;
+        font-family: "Poppins", serif;
+      }
+      button {
+        width: 100px;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: "Urbanist", serif;
+        color: rgb(25, 73, 150);
+        padding: 10px;
+        background-color: lightblue;
+        border: none;
+        border-radius: 20px;
+      }
+      button:hover{
+        background-color: rgb(159, 200, 214);
+        cursor: pointer;
+      }
+      .button {
+        width: 100px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-img">
+        <img
+          src="https://images.unsplash.com/photo-1506138979136-a74b54936c90?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          width="250"
+          alt="man in boat"
+        />
+      </div>
+      <div class="card-head"><span>Nature</span><span>Lake</span></div>
+      <div class="card-body">
+        <h2>Beautiful Sunset</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          odit, sit, quaerat sequi delectus aut saepe autem reiciendis
+          consectetur, expedita modi cupiditate odio esse dolore doloremque
+          ipsam. Et, temporibus exercitationem.
+        </p>
+      </div>
+      <div class="button">
+        <button>Read More</button>
+      </div>
+    </div>
+  </body>
+</html>
